@@ -1,0 +1,15 @@
+instance1:
+  build: instance1
+  hostname: zookeeper_instance1_1
+  ports:
+  - "2181:2181"
+instance2: 
+  build: instance2
+  hostname: zookeeper_instance2_1
+  ports:
+  - "2182:2181"
+instance3: 
+  build: instance3
+  hostname: zookeeper_instance3_1
+  ports:
+    - "2183:2181"
